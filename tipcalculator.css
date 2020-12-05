@@ -1,0 +1,64 @@
+body{
+    background-color: teal;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 2% auto;
+    padding-bottom: 20px;
+    font-size: 30px;
+    background-color: rgba(11, 78, 37, 0.575);
+    border-radius: 10px;
+}
+.blockcontainer{
+    width: 80%;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    color: rgb(166, 214, 241);
+}
+#billamount, #percentagetip, #people{
+    height: 25px;
+    font-size: 20px;
+
+}
+.inputdata{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    color: white;
+}
+.inputdata div{
+    margin-top: 40px;
+}
+.calculate{
+    text-align: center;
+    margin: 30px 0px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+#result{
+    display: grid;
+    grid-template-columns: auto;
+}
+.amount{
+    width: 60%;
+    margin: 1% auto;
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 25px;
+    background-color: rgba(11, 78, 37, 0.575);
+    border-radius: 10px;
+    color: rgb(196, 189, 189);
+}
+.amt{
+    color: rgb(245, 254, 255);
+}
